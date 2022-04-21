@@ -1,35 +1,51 @@
 *{
+    box-sizing: border-box;
     background-color: black;
     margin: 0;
     padding: 0;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1349px;
     margin: 0 80px;
-    padding: 0 30x;
+    
     
 }
 
 .navbar .container{
     display: flex;
-    justify-content: space-between;
+    
+    justify-content:space-between ;
     align-items: center;
     height: 80px;
-}
-.navbar .container img{
-    height: 42px;
+    background: black;
 }
 
+
+.navbar .container img{
+   
+    height: 28px;
+   
+    
+}
+
+.center-links{
+
+    align-items: center;
+   margin-left: 178px;
+}
 .center-links a{
     color: white;
     text-decoration: none;
-    
-
+    font-size: 18px;
+    /* padding:  10px 16.7px; */
+    padding:  10px 17px;
 }
 
-.navbar .container .btn-become-host{
+.btn-become-host{
         color: white;
-}
+        box-sizing: border-box;
+        
+    }
 
 .navbar .container .region{
     color: white;
