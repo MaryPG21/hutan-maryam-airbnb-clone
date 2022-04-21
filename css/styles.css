@@ -1,17 +1,29 @@
 *{
     background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .container img{
+    height: 42px;
+}
+
+.center-links a{
     color: white;
-}
-#logo{
+    text-decoration: none;
     
-    margin-left: 87px;
-    margin-top: 20px;
-    width: 97px;
-    position: relative;
-   
+
 }
 
-.parnet-div{
+.navbar .container .btn-become-host{
+        color: white;
+}
 
-
+.navbar .container .region{
+    color: white;
 }
