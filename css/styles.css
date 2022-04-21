@@ -1,0 +1,39 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 80px;
+    padding: 0 30x;
+    
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.navbar .container img{
+    height: 42px;
+}
+
+.center-links a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+.navbar .container .btn-become-host{
+        color: white;
+}
+
+.navbar .container .region{
+    color: white;
+}
+.navbar .container ul{
+    display: flex;
+}
