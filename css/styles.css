@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    background-color: black;
     margin: 0;
     padding: 0;
    font-family: "circular";
@@ -10,18 +9,38 @@
     font-family: "circular";
     src: url(/fonts/CircularStd-Light.otf);
 }
+.section1{
+    height:686.48px;
+    background-color: black;
+}
+
+.section2 {
+    height: 595.5px;
+ 
+}
+.section2 .bg-black{
+    height: 297.75px;
+    background-color: black;
+    padding: 0% 80px;
+
+}
+.section3{
+    height: 553.31px;
+}
+
 .container{
     max-width: 1349px;
     margin: 0 80px;
     
 }
 
+
 .navbar .container{
     display: flex;
     justify-content:space-between ;
     align-items: center;
     height: 80px;
-    background: black;
+  
 }
 
 
@@ -133,7 +152,7 @@ border-radius: 15px;
 .body-elements .container .top-text-body h1{
     margin-top: 96px;
     font-size: 33px;
-    color: white;
+    color: black;
     width: 414px;
     height: 85px;
  
@@ -145,23 +164,25 @@ border-radius: 15px;
 }
 
 .cards-body .container img{
-    width: 279px;
-    height: 100%;
+    width: 279.25px;
+    height: 186.16px;
     border-top-left-radius:   15px;
     border-top-right-radius: 15px;
+    vertical-align: bottom;
 }
 .under-cards-body .container{
     display: flex;
     justify-content: space-between;
-    margin-top: 0;
+    align-items: center;
+    
 }
 
 .under-cards-body .container .color-cards{
-    width: 279px;
-    height: 186px;
+    width: 279.25px;
+    height: 186.16px;
     border-bottom-left-radius:  15px;
     border-bottom-right-radius: 15px;
- 
+    
 }
 .under-cards-body .container .color-cards:nth-of-type(1)
 {
@@ -212,19 +233,20 @@ border-radius: 15px;
     margin-top: 96px;
     font-size: 33px;
     color: white;
-    width: 384px;
-    height: 450px;
+    width: 230px;
+    height: 92px;
 
 }
 .body-elements .container .gift-cards{
     position: relative;
-    left: 0px;
+    left: 154px;
     right: 0px;
     width: 885px;
     height: 450px;
-    
+    margin-top: 96px;
     object-fit: cover;
     object-position: center center;
     vertical-align: bottom;
+    border-radius: 10px;
 }
 
