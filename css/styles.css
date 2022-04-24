@@ -14,6 +14,7 @@
     background-color: black;
 }
 
+
 .section2 {
     height: 595.5px;
  
@@ -156,11 +157,27 @@
 
 
 .section-header .container .pink-card {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center; 
 width: 100%;
 height: 368px;
 margin-top: 77px;
 background-color: #FF385c;
 border-radius: 15px;
+}
+.section-header .container .pink-card .content h1{
+    color: white;
+    font-size: 38px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.section-header .container .pink-card .btn{
+    color:white;
+    background-color: #FF385c;
+    border-radius: 10px;
+    border-color: white;
+    padding: 8px 16px;
 }
 
 .search-header{
