@@ -9,6 +9,15 @@
     font-family: "circular";
     src: url(/fonts/CircularStd-Light.otf);
 }
+
+@font-face {
+    font-family: "circular-m";
+    src: url(/fonts/CircularStd-Medium.otf);
+}
+
+ul{
+    list-style-type: none;
+}
 .section1{
     height:686.48px;
     background-color: black;
@@ -273,9 +282,7 @@ border-radius: 15px;
     height: 92px;
 }
 
-.gift-card  .container{
 
-}
 .gift-card  .container  img{
     
      width: 120%;
@@ -284,4 +291,31 @@ border-radius: 15px;
     object-position: left;  
     margin-left: 75px;
 }
+
+.section8 .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+   
+}
+
+.section8 .container ul{
+    width: 279px;
+   
+   margin-top: 48px;
+}
+
+
+.section8 .container ul li{
+
+
+}
+.section8 .container ul li a{
+    height: 18px;
+    line-height:2.6;
+    color: black;
+    font-size: 14px;
+    font-family: circular;   
+}
+
 
