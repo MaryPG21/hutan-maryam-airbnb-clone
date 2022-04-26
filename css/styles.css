@@ -134,6 +134,7 @@ ul{
     height: 859.5px;
     vertical-align: bottom;
 }
+
 .section5{
     height: 449.66px;
 }
@@ -144,6 +145,7 @@ ul{
     border-radius: 10px;
     height: 48px;
     width: 133px;
+
 
 }
 .section6 { 
@@ -172,6 +174,36 @@ ul{
       width: 170px;
       height: 48px;
   }
+
+
+}
+.section6 { 
+  height: 674.5px;
+  vertical-align: bottom;
+
+}
+.section6 .questions{
+    background-image: url("/images/questions.jpg");
+    background-size: contain;
+    height: 674.5px;
+    background-repeat: no-repeat;
+}
+.section6 .questions h1{
+    padding-top: 80px;
+    padding-left: 80px;
+    line-height: 1;
+}
+.section6 .questions .btn button{
+    margin-top: 236px;
+    margin-left: 80px;
+    background-color: white;
+    font-family: circular-m, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 170px;
+    height: 48px;
+}
+
 .section7{
 
   height: 279px;
