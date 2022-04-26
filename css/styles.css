@@ -67,16 +67,68 @@ ul{
 .section3{
     height: 553.31px;
 }
-.section3 .under-cards-body .container .text p{
+.section3 .under-cards-body .text h2{
     margin-top:20px ;
     margin-left: 16px;
-    width: 70px;
-    height: 30px;
+    /* width: 70px; */
+    height: 100%;
     color: white;
-    font-size: 20px;
+    font-size: 27px;
+    /* font-weight: 600;
+    line-height: 30px; */
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 }
-.section3 .under-cards-body .container .text2{
-    d
+.section3 .under-cards-body .text2 p{
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 15px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    color: white;
+}
+.section3 .under-cards-body .text1 h2{
+    margin-top:20px ;
+    margin-left: 16px;
+    height: 100%;
+    color: white;
+    font-size: 27px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.section3 .under-cards-body .text2 p{
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 15px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    color: white;
+}
+.section3 .under-cards-body .text3 h2{
+    margin-top:20px ;
+    margin-left: 16px;
+    height: 100%;
+    color: white;
+    font-size: 27px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.section3 .under-cards-body .text2 p{
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 15px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    color: white;
+}
+.section3 .under-cards-body .text4 h2{
+    margin-top:20px ;
+    margin-left: 16px;
+    height: 100%;
+    color: white;
+    font-size: 27px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.section3 .under-cards-body .text2 p{
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 15px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    color: white;
 }
 .section4{
     height: 859.5px;
