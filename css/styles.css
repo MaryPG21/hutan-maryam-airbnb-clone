@@ -146,6 +146,36 @@ ul{
     height: 48px;
     width: 133px;
 
+
+}
+.section6 { 
+    height: 674.5px;
+    vertical-align: bottom;
+  
+  }
+  .section6 .questions{
+      background-image: url("/images/questions.jpg");
+      background-size: contain;
+      height: 674.5px;
+      background-repeat: no-repeat;
+  }
+  .section6 .questions h1{
+      padding-top: 80px;
+      padding-left: 80px;
+      line-height: 1;
+  }
+  .section6 .questions .btn button{
+      margin-top: 236px;
+      margin-left: 80px;
+      background-color: white;
+      font-family: circular-m, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+      cursor: pointer;
+      border-radius: 10px;
+      width: 170px;
+      height: 48px;
+  }
+
+
 }
 .section6 { 
   height: 674.5px;
@@ -173,6 +203,7 @@ ul{
     width: 170px;
     height: 48px;
 }
+
 .section7{
 
   height: 279px;
@@ -386,6 +417,7 @@ border-radius: 15px;
     color: white;
     width: 414px;
     height: 85px;
+    font-family: circular-m;
  
 }
 
@@ -433,10 +465,10 @@ border-radius: 15px;
 }
 
 
-.section8 .container ul li{
 
 
-}
+
+
 .section8 .container ul li a{
     height: 18px;
     line-height:2.6;
@@ -444,5 +476,26 @@ border-radius: 15px;
     font-size: 14px;
     font-family: circular;   
 }
+.left-side ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+    
+}
 
+.left-side ul li{
+    margin-left: 19px;
+    font-size: 14px;
+    font-family: circular;
+    
+   
+}
+.left-side ul li a{
+color: black;
+font-family: circular;
+font-size: 14px;
+}
 
+.left-side ul li a i{
+    font-size: 20px;
+}
