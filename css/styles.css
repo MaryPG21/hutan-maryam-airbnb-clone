@@ -76,7 +76,7 @@ ul{
     font-size: 20px;
 }
 .section3 .under-cards-body .container .text2{
-    d
+    
 }
 .section4{
     height: 859.5px;
@@ -363,4 +363,17 @@ border-radius: 15px;
     font-family: circular;   
 }
 
+.left-side ul {
+    display: flex;
+    justify-content: flex-start;
+    
+}
 
+.left-side ul li{
+    margin-left: 19px;
+    font-size: 14.5px;
+   
+}
+.left-side ul li a{
+color: black;
+}
