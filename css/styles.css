@@ -134,8 +134,18 @@ ul{
     height: 859.5px;
     vertical-align: bottom;
 }
+
 .section5{
     height: 449.66px;
+}
+.section5 .btn button{
+     margin-top: 35px;
+    background-color: #222222;
+    color: white;
+    border-radius: 10px;
+    height: 48px;
+    width: 133px;
+
 }
 .section6 img{ 
   height: 674.5px;
