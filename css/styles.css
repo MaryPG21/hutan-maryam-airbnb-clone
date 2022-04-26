@@ -34,20 +34,174 @@ ul{
     padding: 0% 80px;
 
 }
+.bg-black .herohouse{
+    background-image: url("/images/hero-House.jpg");
+    background-size: contain;
+    width: 1189px;
+    height: 594.5px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.herohouse .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 408px;
+}
+.herohouse .container .btn button{
+    background-color: white;
+    border-color: white;
+    border-radius: 30px;
+    padding: 14px 32px ;
+    width: 161px;
+    height: 56px;
+    margin-top: 25px;
+    font-size: 18.5px;
+    cursor: pointer;
+    line-height: 1.43;
+    color: rgb(145,1,144);
+    font-family: circular-m;
+}
+
 .section3{
     height: 553.31px;
+}
+.section3 .under-cards-body .text h2{
+    margin-top:20px ;
+    margin-left: 16px;
+    /* width: 70px; */
+    height: 100%;
+    color: white;
+    font-size: 27px;
+    /* font-weight: 600;
+    line-height: 30px; */
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.section3 .under-cards-body .text2 p{
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 15px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    color: white;
+}
+.section3 .under-cards-body .text1 h2{
+    margin-top:20px ;
+    margin-left: 16px;
+    height: 100%;
+    color: white;
+    font-size: 27px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.section3 .under-cards-body .text2 p{
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 15px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    color: white;
+}
+.section3 .under-cards-body .text3 h2{
+    margin-top:20px ;
+    margin-left: 16px;
+    height: 100%;
+    color: white;
+    font-size: 27px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.section3 .under-cards-body .text2 p{
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 15px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    color: white;
+}
+.section3 .under-cards-body .text4 h2{
+    margin-top:20px ;
+    margin-left: 16px;
+    height: 100%;
+    color: white;
+    font-size: 27px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.section3 .under-cards-body .text2 p{
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 15px;
+    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    color: white;
 }
 .section4{
     height: 859.5px;
     vertical-align: bottom;
 }
+
 .section5{
     height: 449.66px;
 }
-.section6 img{ 
+.section5 .btn button{
+     margin-top: 35px;
+    background-color: #222222;
+    color: white;
+    border-radius: 10px;
+    height: 48px;
+    width: 133px;
+
+
+}
+.section6 { 
+    height: 674.5px;
+    vertical-align: bottom;
+  
+  }
+  .section6 .questions{
+      background-image: url("/images/questions.jpg");
+      background-size: contain;
+      height: 674.5px;
+      background-repeat: no-repeat;
+  }
+  .section6 .questions h1{
+      padding-top: 80px;
+      padding-left: 80px;
+      line-height: 1;
+  }
+  .section6 .questions .btn button{
+      margin-top: 236px;
+      margin-left: 80px;
+      background-color: white;
+      font-family: circular-m, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+      cursor: pointer;
+      border-radius: 10px;
+      width: 170px;
+      height: 48px;
+  }
+
+
+}
+.section6 { 
   height: 674.5px;
   vertical-align: bottom;
 
+}
+.section6 .questions{
+    background-image: url("/images/questions.jpg");
+    background-size: contain;
+    height: 674.5px;
+    background-repeat: no-repeat;
+}
+.section6 .questions h1{
+    padding-top: 80px;
+    padding-left: 80px;
+    line-height: 1;
+}
+.section6 .questions .btn button{
+    margin-top: 236px;
+    margin-left: 80px;
+    background-color: white;
+    font-family: circular-m, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 170px;
+    height: 48px;
 }
 
 .section7{
@@ -187,6 +341,10 @@ border-radius: 15px;
     border-radius: 10px;
     border-color: white;
     padding: 8px 16px;
+    border: solid;
+    cursor: pointer;
+    border-width: thin;
+    margin-top: 24px;
 }
 
 .search-header{
@@ -259,6 +417,7 @@ border-radius: 15px;
     color: white;
     width: 414px;
     height: 85px;
+    font-family: circular-m;
  
 }
 
@@ -306,10 +465,10 @@ border-radius: 15px;
 }
 
 
-.section8 .container ul li{
 
 
-}
+
+
 .section8 .container ul li a{
     height: 18px;
     line-height:2.6;
@@ -317,5 +476,26 @@ border-radius: 15px;
     font-size: 14px;
     font-family: circular;   
 }
+.left-side ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+    
+}
 
+.left-side ul li{
+    margin-left: 19px;
+    font-size: 14px;
+    font-family: circular;
+    
+   
+}
+.left-side ul li a{
+color: black;
+font-family: circular;
+font-size: 14px;
+}
 
+.left-side ul li a i{
+    font-size: 20px;
+}
