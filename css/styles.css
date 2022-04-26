@@ -34,8 +34,49 @@ ul{
     padding: 0% 80px;
 
 }
+.bg-black .herohouse{
+    background-image: url("/images/hero-House.jpg");
+    background-size: contain;
+    width: 1189px;
+    height: 594.5px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.herohouse .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 408px;
+}
+.herohouse .container .btn button{
+    background-color: white;
+    border-color: white;
+    border-radius: 30px;
+    padding: 14px 32px ;
+    width: 161px;
+    height: 56px;
+    margin-top: 25px;
+    font-size: 18.5px;
+    cursor: pointer;
+    line-height: 1.43;
+    color: rgb(145,1,144);
+    font-family: circular-m;
+}
+
 .section3{
     height: 553.31px;
+}
+.section3 .under-cards-body .container .text p{
+    margin-top:20px ;
+    margin-left: 16px;
+    width: 70px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+}
+.section3 .under-cards-body .container .text2{
+    d
 }
 .section4{
     height: 859.5px;
@@ -187,6 +228,10 @@ border-radius: 15px;
     border-radius: 10px;
     border-color: white;
     padding: 8px 16px;
+    border: solid;
+    cursor: pointer;
+    border-width: thin;
+    margin-top: 24px;
 }
 
 .search-header{
