@@ -296,6 +296,7 @@ ul{
 }
 
 .container .lefside-nav .nav-menu{
+    display: flex;
     align-items: center; 
     width: 77px;
     height: 42px;
