@@ -428,12 +428,16 @@ border-radius: 15px;
     margin-bottom: 0;
   
 }
-.cards-experience .container img{
+
+.cards-experience .container .cards{
     width: 583px;
     height: 583px;
     border-radius: 10px;
-}
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
 
+}
 .body-elements .container .gift-text-body h1
 {
     font-size: 41px;
