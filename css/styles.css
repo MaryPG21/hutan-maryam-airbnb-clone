@@ -70,12 +70,11 @@ ul{
 .section3 .under-cards-body .text h2{
     margin-top:20px ;
     margin-left: 16px;
-    /* width: 70px; */
+ 
     height: 100%;
     color: white;
     font-size: 27px;
-    /* font-weight: 600;
-    line-height: 30px; */
+
     font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 }
 .section3 .under-cards-body .text2 p{
@@ -176,7 +175,7 @@ ul{
   }
 
 
-}
+
 .section6 { 
   height: 674.5px;
   vertical-align: bottom;
@@ -415,9 +414,9 @@ border-radius: 15px;
     margin-top: 96px;
     font-size: 33px;
     color: white;
-    width: 414px;
+    width: 100%;
     height: 85px;
-    font-family: circular-m;
+    font-family: circular;
  
 }
 
@@ -428,12 +427,21 @@ border-radius: 15px;
     margin-bottom: 0;
   
 }
-.cards-experience .container img{
+
+.cards-experience .container .cards{
     width: 583px;
     height: 583px;
     border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
 }
 
+.cards .container{
+    display: flex;
+    flex-direction: column;
+}
 .body-elements .container .gift-text-body h1
 {
     font-size: 41px;
