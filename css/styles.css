@@ -306,7 +306,9 @@ ul{
 }
 .section-header .container{
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 .section-header .container .search-header{
     
@@ -315,26 +317,25 @@ ul{
     align-items: center;
     max-width:  849.02px; 
     height: 66px;
-    margin-left: 170px;
     background-color: white;
     border-radius: 40px;
 }
 
-.search-header .elements{
-    align-self: center;
-    flex-grow: 1;
+.search-header .elements .content {
+    
+  /* padding: 14px 32px; */
+  max-width:  849.02px; 
     
 }
-.search-header .elements:nth-of-type(1){
-    flex-grow: 1;
+ .elements .content{
+    margin-left: 33px;
+    margin-top: 15px;
 }
 .search-header .elements:hover{
 
     background-color: #EBEBEB;
     border-radius: 40px;
 }
-
-
 
 .section-header .container .pink-card {
 display: flex;
