@@ -226,6 +226,7 @@ ul{
     justify-content:space-between ;
     align-items: center;
     height: 80px;
+    cursor: pointer;
 
 }
 
@@ -251,6 +252,9 @@ ul{
   
     height: 40px;
     padding:  10px 18.7px;
+
+
+        
     
 }
 .center-links a:hover{
@@ -306,18 +310,55 @@ ul{
 }
 .section-header .container{
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 .section-header .container .search-header{
     
-    width: 849.02px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:  849.02px; 
     height: 66px;
-    margin-left: 170px;
     background-color: white;
     border-radius: 40px;
 }
 
+.search-header .elements .content {
+    
+  max-width:  849.02px; 
+    
+}
+ .elements .content{
+    margin-left: 33px;
+    margin-top: 15px;
+}
 
+
+
+/* 
+.search-header .elements:nth-of-type(1){
+
+    border-right: 1px solid #DDDDDD;
+} */
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FF385C;
+    margin-right: 11px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-header .elements:hover{
+
+    background-color: #EBEBEB;
+    border-radius: 40px;
+}
 
 .section-header .container .pink-card {
 display: flex;
@@ -347,9 +388,6 @@ border-radius: 15px;
     margin-top: 24px;
 }
 
-.search-header{
-    background-color: white;
-}
 
 .body-elements .container{
     display: flex;
