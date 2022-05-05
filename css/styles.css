@@ -333,15 +333,8 @@ ul{
  .elements .content{
     margin-left: 33px;
     margin-top: 15px;
+    cursor: pointer;
 }
-
-
-
-/* 
-.search-header .elements:nth-of-type(1){
-
-    border-right: 1px solid #DDDDDD;
-} */
 
 .circle{
     width: 50px;
@@ -352,6 +345,12 @@ ul{
     display: flex ;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    
+}
+
+.circle:hover{
+    background-image: linear-gradient(#FF385C, #ff388b);
 }
 
 .search-header .elements:hover{
@@ -400,7 +399,6 @@ border-radius: 15px;
     color: black;
     width: 414px;
     height: 85px;
- 
 }
 
 .cards-body .container{
