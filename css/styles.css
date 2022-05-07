@@ -40,7 +40,6 @@ button{
     background-color: black;
 }
 
-
 .navbar .container{
     display: flex;
     justify-content:space-between ;
@@ -97,6 +96,7 @@ button{
  background-color: rgba(72, 72, 75, 0.432);
  border-radius: 50px;
     }
+
  .container .lefside-nav .region{
     color: white;
     align-items: center;    
@@ -106,6 +106,7 @@ button{
     justify-content: center;
     margin-right: 20px;
 }
+
  .region:hover{
     background-color: rgba(72, 72, 75, 0.432);
     border-radius: 100%;
@@ -120,6 +121,7 @@ button{
     background-color: white;
     border-radius: 50px;
 }
+
 .section-header .container{
     display: flex;
     justify-content: center;
@@ -140,8 +142,14 @@ button{
 .search-header .elements .content {
     
   max-width:  849.02px; 
-    
 }
+
+.divide{
+	border-left: 1px solid #e6e3e3;
+	align-self: center;
+	height: 32px;
+}
+
  .elements .content{
     margin-left: 33px;
     margin-top: 15px;
