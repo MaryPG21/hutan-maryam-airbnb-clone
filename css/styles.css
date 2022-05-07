@@ -539,12 +539,7 @@ button{
   .tab-switch {
  display: none;
   }
-  .tab-switch:checked{
-     /* display: inline-block; */
-     position: absolute;
 
-
-  }
   .tab-label {
     position: relative;
     align-items: center;
@@ -556,7 +551,7 @@ button{
   }
 
   .tab-label:hover {
-  background-color: #f0e7e7;
+  background-color: #e6e1e1;
   }
 
   .tab-content {
