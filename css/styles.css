@@ -585,8 +585,10 @@ button{
   margin-top: 48px;
   margin-bottom: 64px;
 }
-.text-title{
-
+.text-title h1{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: Circular,sans-serif;
 }
 
 .tabs {
@@ -628,8 +630,11 @@ button{
     align-items: center;
     justify-content: flex-start;
     height: 38px;
-    color: black;
+    color: #717171;
     cursor: pointer;
+    font-family: Circular,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
 
   }
 
