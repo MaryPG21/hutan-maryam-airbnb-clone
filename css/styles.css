@@ -8,12 +8,12 @@
 }
 @font-face {
     font-family: "circular";
-    src: url(/fonts/CircularStd-Light.otf);
+    src: url(/fonts/Circular-light.ttf);
 }
 
 @font-face {
     font-family: "circular-m";
-    src: url(/fonts/CircularStd-Medium.otf);
+    src: url(/fonts/Circular-medium.ttf);
 }
 .container{
     max-width: 1349px;
@@ -30,7 +30,6 @@ ul{
 button{
     cursor: pointer;
     border: none;
-    
 }
 
 
