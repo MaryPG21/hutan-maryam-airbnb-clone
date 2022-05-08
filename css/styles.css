@@ -1,25 +1,32 @@
 /* =========Default========== */
-*{
-    box-sizing: border-box;
-    margin: 0;
-   padding: 0;
 
-}
 @font-face {
     font-family: Circular;
-    src: url(/fonts/Circular-medium.ttf);
+    src: url(../fonts/Circular-medium.ttf);
     font-weight: 500;
   }
   @font-face {
     font-family: Circular;
-    src: url(/fonts/Circular-bold.ttf);
+    src: url(../fonts/Circular-bold.ttf);
     font-weight: 600;
   }
   @font-face {
     font-family: Circular;
-    src: url(/fonts/Circular-light.ttf);
+    src: url(../fonts/Circular-light.ttf);
     font-weight: 400;
   }
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+   padding: 0;
+
+
+}
+html{
+    font-family: Circular,sans-serif;
+}
+
 .container{
     max-width: 1349px;
     margin: 0 80px;
@@ -28,8 +35,7 @@ a{
     color: white;
     text-decoration: none;
     cursor: pointer;
-    font-family: Circular, sans-serif;
-    font-weight: 500;
+  
 
    }
 ul{
@@ -64,10 +70,7 @@ button{
     display: flex;
     
 }
-.center-links a {
-	height: 40px;
-	padding: 10px 15px;
-}
+
 .center-links a:hover {
     color: rgb(200, 200, 204);
     border-bottom: 1px white solid;
@@ -76,25 +79,29 @@ button{
 }
 .center-links {
 	display: flex;
-	margin-left: 284px;
-    justify-content: space-between;
+	margin-left: 282.4px;
+    justify-content: space-evenly;
 	align-content: center;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 200;
 }
-
-.center-links .experiences{
+.center-links a {
+	height: 40px;
+    width: 100%;
+	padding: 10px 15px;
+}
+/* .center-links .experiences{
 	position: relative;
 	left: -2px;
 }
 .center-links .onlineexperiences{
 	position: relative;
 	left: 0;
-}
-.center-links .places{
+} */
+/* .center-links .places{
 	position: relative;
 	left: -4px;
-}
+} */
 
 
 .rightNav {
@@ -105,7 +112,7 @@ button{
     margin-left: 137px;
 }
 
-.rightNav .webimg {
+.rightNav .reg {
 	color: white;
 	align-items: center;
 	width: 48px;
@@ -118,7 +125,7 @@ button{
     cursor: pointer;
 }
 
-.rightNav .webimg:hover {
+.rightNav .reg:hover {
     background-color: rgba(72, 72, 75, 0.432);
     border-radius: 100%
     
@@ -230,7 +237,7 @@ button{
     .section-header .container .pink-card .content h1{
         color: white;
         font-size: 38px;
-        font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+      font-family: Circular,sans-serif;
     }
     .section-header .container .pink-card .btn{
         color:white;
@@ -488,7 +495,7 @@ button{
     height: 449.66px;
 }
 .section5 .btn button{
-    margin-top: 35px;
+    margin-top: 24px;
     background-color: #222222;
     color: white;
     border-radius: 10px;
@@ -496,11 +503,12 @@ button{
     width: 133px;
 }
 
-.body-elements .container .gift-text-body h1
+.body-elements .container .gift-text-body h2
 {
-    font-size: 41px;
-    width: 229.73px;
-    height: 92px;
+    font-size: 39px;
+  width: 229px;
+    font-family: Circular, sans-serif;
+    font-weight: 500;
 }
 
 .gift-card  .container  img{
@@ -525,6 +533,7 @@ button{
       height: 674.5px;
       background-repeat: no-repeat;
   }
+
   .section6 .questions h1{
       padding-top: 80px;
       padding-left: 80px;
@@ -534,7 +543,9 @@ button{
       margin-top: 236px;
       margin-left: 80px;
       background-color: white;
-      font-family: circular-m, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+      font-family: Circular,sans-serif;
+      font-weight: 500;
+      font-size: 16px;
       cursor: pointer;
       border-radius: 10px;
       width: 170px;
@@ -573,6 +584,9 @@ button{
   height: 279px;
   margin-top: 48px;
   margin-bottom: 64px;
+}
+.text-title{
+
 }
 
 .tabs {
