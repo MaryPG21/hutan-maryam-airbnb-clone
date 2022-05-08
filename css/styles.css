@@ -68,6 +68,12 @@ button{
 	height: 40px;
 	padding: 10px 15px;
 }
+.center-links a:hover {
+    color: rgb(200, 200, 204);
+    border-bottom: 1px white solid;
+
+	
+}
 .center-links {
 	display: flex;
 	margin-left: 284px;
@@ -109,13 +115,13 @@ button{
 	justify-content: center;
 	align-items: center;
 	align-content: center;
+    cursor: pointer;
 }
 
-.rightNav .region :hover {
-	border: 15px solid rgb(201, 197, 197);
-
-	border-radius: 50px;
-
+.rightNav .webimg:hover {
+    background-color: rgba(72, 72, 75, 0.432);
+    border-radius: 100%
+    
 }
 
 .rightNav .HostText  {
@@ -128,16 +134,16 @@ button{
 	height: 42px;
 	border-radius: 50px;
 
-
 }
  .rightNav .HostText a {
 	text-decoration: none;
 	font-size: 14px;
 	padding-left: 4px;
 }
-
-
-
+.rightNav .HostText:hover {
+ background-color: rgba(72, 72, 75, 0.432);
+ border-radius: 50px;
+}
 .bgRightNav{
     width: 76.5px;
     height: 42px;
@@ -146,6 +152,7 @@ button{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    cursor: pointer;
 }
 
 
