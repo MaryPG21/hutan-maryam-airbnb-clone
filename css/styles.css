@@ -3,18 +3,23 @@
     box-sizing: border-box;
     margin: 0;
    padding: 0;
-   font-family: "circular";
-   font-size: 16px;
-}
-@font-face {
-    font-family: "circular";
-    src: url(/fonts/CircularStd-Light.otf);
-}
 
-@font-face {
-    font-family: "circular-m";
-    src: url(/fonts/CircularStd-Medium.otf);
 }
+@font-face {
+    font-family: Circular;
+    src: url(/fonts/Circular-medium.ttf);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: Circular;
+    src: url(/fonts/Circular-bold.ttf);
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: Circular;
+    src: url(/fonts/Circular-light.ttf);
+    font-weight: 400;
+  }
 .container{
     max-width: 1349px;
     margin: 0 80px;
@@ -23,6 +28,9 @@ a{
     color: white;
     text-decoration: none;
     cursor: pointer;
+    font-family: Circular, sans-serif;
+    font-weight: 500;
+
    }
 ul{
     list-style-type: none;
@@ -30,7 +38,6 @@ ul{
 button{
     cursor: pointer;
     border: none;
-    
 }
 
 
@@ -40,86 +47,109 @@ button{
     background-color: black;
 }
 
-
-.navbar .container{
+.navbar{
     display: flex;
-    justify-content:space-between ;
-    align-items: center;
-    height: 80px;
-    cursor: pointer;
-}
-
-.navbar .container img{
-    height: 34px;
-    margin-top: 5px;
-}
-.navbar .container ul{
-    display: flex;
-}
-
-.center-links{
-    align-items: center;
-    margin-left: 150px;
-   }
-
-
-.center-links a{
-  
-    height: 40px;
-    padding:  10px 18.7px;
- 
-}
-.center-links a:hover{
-  
-    color: rgb(200, 200, 204);
-    border-bottom: 1px white solid;
-}
-
-.lefside-nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 80px;
 }
-
-.container .lefside-nav .btn-become-host{
-        color: white;
-        height: 42px;
-        padding:  10px 18.7px;
-     font-family: circular-m;
-    }
-.container .lefside-nav .btn-become-host a{
-        font-size: 15px;
-        text-decoration: none;
-        
-    }
-.container .lefside-nav .btn-become-host:hover{
- background-color: rgba(72, 72, 75, 0.432);
- border-radius: 50px;
-    }
- .container .lefside-nav .region{
-    color: white;
-    align-items: center;    
-    width: 42px;
-    height: 42px;
+.main-header{
+    max-width: 1349px;
+    margin: 0 80px;
+    height: 80px;
     display: flex;
-    justify-content: center;
-    margin-right: 20px;
-}
- .region:hover{
-    background-color: rgba(72, 72, 75, 0.432);
-    border-radius: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.container .lefside-nav .nav-menu{
+.navbar .main-header ul{
     display: flex;
-    justify-content: center;
-    align-items: center; 
-    width: 77px;
+    
+}
+.center-links a {
+	height: 40px;
+	padding: 10px 15px;
+}
+.center-links {
+	display: flex;
+	margin-left: 284px;
+    justify-content: space-between;
+	align-content: center;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.center-links .experiences{
+	position: relative;
+	left: -2px;
+}
+.center-links .onlineexperiences{
+	position: relative;
+	left: 0;
+}
+.center-links .places{
+	position: relative;
+	left: -4px;
+}
+
+
+.rightNav {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-left: 137px;
+}
+
+.rightNav .webimg {
+	color: white;
+	align-items: center;
+	width: 48px;
+	height: 42px;
+	display: flex;
+	margin-right: 3px;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.rightNav .region :hover {
+	border: 15px solid rgb(201, 197, 197);
+
+	border-radius: 50px;
+
+}
+
+.rightNav .HostText  {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	width: 120px;
+	height: 42px;
+	border-radius: 50px;
+
+
+}
+ .rightNav .HostText a {
+	text-decoration: none;
+	font-size: 14px;
+	padding-left: 4px;
+}
+
+
+
+.bgRightNav{
+    width: 76.5px;
     height: 42px;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
 }
+
+
+
 .section-header .container{
     display: flex;
     justify-content: center;
@@ -140,8 +170,13 @@ button{
 .search-header .elements .content {
     
   max-width:  849.02px; 
-    
 }
+
+.divide{
+	border-left: 1px solid #e6e3e3;
+	height: 32px;
+}
+
  .elements .content{
     margin-left: 33px;
     margin-top: 15px;
@@ -180,7 +215,7 @@ button{
     height: 368px;
     margin-top: 77px;
     background-color: #FF385c;
-    border-radius: 15px;
+    border-radius: 8px;
     }
     .section-header .container .pink-card .content h1{
         color: white;
@@ -212,7 +247,7 @@ button{
 
 }
 .bg-black .herohouse{
-    background-image: url("/images/hero-House.jpg");
+    /* background-image: url("/images/hero-House.jpg"); */
     background-size: contain;
     width: 1189px;
     height: 594.5px;
@@ -285,7 +320,6 @@ button{
     color: white;
     font-size: 27px;
 
-    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 }
 .section3 .under-cards-body .text2 p{
     margin-top: 10px;
