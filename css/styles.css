@@ -7,14 +7,20 @@
    font-size: 16px;
 }
 @font-face {
-    font-family: "circular";
-    src: url(/fonts/Circular-light.ttf);
-}
-
-@font-face {
-    font-family: "circular-m";
+    font-family: Circular;
+    src: url(/fonts/Circular-medium.ttf);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: Circular;
     src: url(/fonts/Circular-bold.ttf);
-}
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: Circular;
+    src: url(/fonts/Circular-light.ttf);
+    font-weight: 400;
+  }
 .container{
     max-width: 1349px;
     margin: 0 80px;
@@ -23,6 +29,9 @@ a{
     color: white;
     text-decoration: none;
     cursor: pointer;
+    font-family: Circular, sans-serif;
+    font-weight: 500;
+
    }
 ul{
     list-style-type: none;
@@ -57,7 +66,7 @@ button{
 
 .center-links{
     align-items: center;
-    margin-left: 173px;
+    margin-left: 188px;
    }
 
 
@@ -295,7 +304,6 @@ button{
     color: white;
     font-size: 27px;
 
-    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 }
 .section3 .under-cards-body .text2 p{
     margin-top: 10px;
