@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: "circular-m";
-    src: url(/fonts/Circular-medium.ttf);
+    src: url(/fonts/Circular-bold.ttf);
 }
 .container{
     max-width: 1349px;
@@ -190,7 +190,7 @@ button{
     height: 368px;
     margin-top: 77px;
     background-color: #FF385c;
-    border-radius: 15px;
+    border-radius: 8px;
     }
     .section-header .container .pink-card .content h1{
         color: white;
@@ -222,7 +222,7 @@ button{
 
 }
 .bg-black .herohouse{
-    background-image: url("/images/hero-House.jpg");
+    /* background-image: url("/images/hero-House.jpg"); */
     background-size: contain;
     width: 1189px;
     height: 594.5px;
