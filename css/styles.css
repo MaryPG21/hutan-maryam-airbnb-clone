@@ -272,8 +272,12 @@ button{
     padding-top: 408px;
 }
 
+.span{
+ background: linear-gradient(90deg, rgb(111, 1, 156) 0%, rgb(198, 1, 126) 135.12%);
+ -webkit-background-clip: text !important; -webkit-text-fill-color: transparent !important;
+}
 
-.herohouse .container .btn button{
+ .herohouse .container .btn button{
     background-color: white;
     border-color: white;
     border-radius: 30px;
@@ -284,13 +288,18 @@ button{
     font-size: 18.5px;
     cursor: pointer;
     line-height: 1.43;
-    color: rgb(145,1,144);
     font-family: Circular, sans-serif;
     font-weight: 550;
     box-shadow: none;
 }
 
-
+.text-ex{
+    color: white;
+     font-family: Circular, sans-serif;
+     font-size: 43px; 
+     font-weight: 550;
+    width: 260px; 
+}
 
 /* ===========Section3============ */
 .section3{
@@ -322,12 +331,15 @@ button{
     color: black;
     width: 414px;
     height: 85px;
+    font-family: Circular, sans-serif;
+    font-weight: 550;
 }
 
 .section3 .under-cards-body .text h2{
     margin-top:20px ;
     margin-left: 16px;
- 
+    font-family: Circular, sans-serif;
+    font-weight: 500;
     height: 100%;
     color: white;
     font-size: 27px;
@@ -337,7 +349,8 @@ button{
     margin-top: 10px;
     margin-left: 16px;
     font-size: 15px;
-    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
     color: white;
 }
 .section3 .under-cards-body .text1 h2{
@@ -346,13 +359,15 @@ button{
     height: 100%;
     color: white;
     font-size: 27px;
-    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
 }
 .section3 .under-cards-body .text2 p{
     margin-top: 10px;
     margin-left: 16px;
     font-size: 15px;
-    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
     color: white;
 }
 .section3 .under-cards-body .text3 h2{
@@ -361,13 +376,16 @@ button{
     height: 100%;
     color: white;
     font-size: 27px;
-    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
+ 
 }
 .section3 .under-cards-body .text2 p{
     margin-top: 10px;
     margin-left: 16px;
     font-size: 15px;
-    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
     color: white;
 }
 .section3 .under-cards-body .text4 h2{
@@ -376,13 +394,15 @@ button{
     height: 100%;
     color: white;
     font-size: 27px;
-    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
 }
 .section3 .under-cards-body .text2 p{
     margin-top: 10px;
     margin-left: 16px;
     font-size: 15px;
-    font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
     color: white;
 }
 
@@ -435,7 +455,8 @@ button{
     color: white;
     width: 100%;
     height: 85px;
-    font-family: circular;
+    font-family: Circular, sans-serif;
+    font-weight: 550;
 }
 
 .cards-experience .container{
