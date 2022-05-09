@@ -680,7 +680,32 @@ button{
 
     height: 399px;
     background-color: #F7F7F7;
-  }
+}
+.section8-title{
+    font-family: Circular,sans-serif;
+    font-weight:600 ;
+    font-size: 14px;
+
+}
+.s1{
+    margin-top: 0px;
+    font-size: 14px;
+}
+.c1{
+    margin-top: 0px;
+    font-size: 14px;
+
+}
+.ho1{
+    margin-top: 0px;
+    font-size: 14px;
+
+}
+.a1{
+    margin-top: 0px;
+    font-size: 14px;
+
+}
 
 .section8 .container{
     display: flex;
@@ -702,6 +727,13 @@ button{
     font-size: 14px;
     font-family: circular;   
 }
+/* ======================End */
+.bgsection8{
+    background-color: #F7F7F7;
+    
+}
+
+
 .endsection{
     display: flex;
     justify-content: space-between;
@@ -737,4 +769,5 @@ button{
 }
 .rightend ul li a:nth-of-type(1){
     /* flex-basis: 10px; */
+
 }
