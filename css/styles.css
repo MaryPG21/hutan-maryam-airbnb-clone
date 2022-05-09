@@ -730,10 +730,8 @@ button{
 /* ======================End */
 .bgsection8{
     background-color: #F7F7F7;
-    
+
 }
-
-
 .endsection{
     display: flex;
     justify-content: space-between;
@@ -762,12 +760,30 @@ button{
 }
 .rightend ul{
     display: flex;
-    justify-content: right;
+    height: 18px;
 }
 .rightend ul li a{
     color: #222222;
+    text-decoration: underline;
 }
-.rightend ul li a:nth-of-type(1){
-    /* flex-basis: 10px; */
-
+#re1{
+    margin-right: 8px;
+}
+#re2{
+    margin-right:24px ;
+    font-family: Circular,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+#re3{
+    margin-right: 61px;
+    font-family: Circular,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+#re4{
+    margin-right: 43px ;
+}
+#re5{
+    margin-right: 41px ;
 }
