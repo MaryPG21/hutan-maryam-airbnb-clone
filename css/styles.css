@@ -680,7 +680,32 @@ button{
 
     height: 399px;
     background-color: #F7F7F7;
-  }
+}
+.section8-title{
+    font-family: Circular,sans-serif;
+    font-weight:600 ;
+    font-size: 14px;
+
+}
+.s1{
+    margin-top: 0px;
+    font-size: 14px;
+}
+.c1{
+    margin-top: 0px;
+    font-size: 14px;
+
+}
+.ho1{
+    margin-top: 0px;
+    font-size: 14px;
+
+}
+.a1{
+    margin-top: 0px;
+    font-size: 14px;
+
+}
 
 .section8 .container{
     display: flex;
@@ -702,25 +727,63 @@ button{
     font-size: 14px;
     font-family: circular;   
 }
+/* ======================End */
+.bgsection8{
+    background-color: #F7F7F7;
 
-.left-side ul {
+}
+.endsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    margin: 0 80px;
+}
+.leftend ul li a{
+    color: #222222;
+}
+.leftend ul{
     display: flex;
     justify-content: flex-start;
-    align-items: center ;
-    
 }
-
-.left-side ul li{
-    margin-left: 19px;
+.leftend ul li{
+   font-size: 14px;
+   font-family: Circular,sans-serif;
+   font-weight: 400;
+}
+.leftend span{
+    width:19px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightend ul{
+    display: flex;
+    height: 18px;
+}
+.rightend ul li a{
+    color: #222222;
+    text-decoration: underline;
+}
+#re1{
+    margin-right: 8px;
+}
+#re2{
+    margin-right:24px ;
+    font-family: Circular,sans-serif;
+    font-weight: 500;
     font-size: 14px;
-    font-family: circular;
 }
-.left-side ul li a{
-color: black;
-font-family: circular;
-font-size: 14px;
+#re3{
+    margin-right: 61px;
+    font-family: Circular,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
 }
-
-.left-side ul li a i{
-    font-size: 20px;
+#re4{
+    margin-right: 43px ;
+}
+#re5{
+    margin-right: 41px ;
 }
