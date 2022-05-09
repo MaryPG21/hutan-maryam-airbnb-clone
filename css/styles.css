@@ -145,12 +145,13 @@ button{
     
 }
 .bgRightNav{
-    width: 76.5px;
+    width: 77px;
     height: 42px;
     background-color: white;
     border-radius: 20px;
     display: flex;
     justify-content:space-around;
+    margin-left: 20px;
     align-items: center;
     cursor: pointer;
 }
