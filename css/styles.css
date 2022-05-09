@@ -72,11 +72,11 @@ button{
     
 }
 
+
+/* ============Center Links========== */
 .center-links a:hover {
     color: rgb(200, 200, 204);
     border-bottom: 1px white solid;
-
-	
 }
 .center-links {
 	display: flex;
@@ -92,42 +92,32 @@ button{
     width: 100%;
 	padding: 10px 16px;
 }
-/* .center-links .experiences{
-	position: relative;
-	left: -2px;
-}
-.center-links .onlineexperiences{
-	position: relative;
-	left: 0;
-} */
-/* .center-links .places{
-	position: relative;
-	left: -4px;
-} */
-
+/* ============End Center Links============== */
 
 .rightNav {
 	height: 80px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    margin-left: 137px;
+    margin-left: 134px;
+    font-family: Circular,sans-serif;
+    font-weight: 500;
 }
 
-.rightNav .reg {
+.rightNav .sphere {
 	color: white;
 	align-items: center;
 	width: 48px;
 	height: 42px;
 	display: flex;
-	margin-right: 3px;
+	/* margin-right: 3px; */
 	justify-content: center;
 	align-items: center;
 	align-content: center;
     cursor: pointer;
 }
 
-.rightNav .reg:hover {
+.rightNav .sphere:hover {
     background-color: rgba(72, 72, 75, 0.432);
     border-radius: 100%
     
