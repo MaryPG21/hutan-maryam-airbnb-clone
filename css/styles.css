@@ -104,24 +104,7 @@ button{
     font-weight: 500;
 }
 
-.rightNav .sphere {
-	color: white;
-	align-items: center;
-	width: 48px;
-	height: 42px;
-	display: flex;
-	/* margin-right: 3px; */
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-    cursor: pointer;
-}
 
-.rightNav .sphere:hover {
-    background-color: rgba(72, 72, 75, 0.432);
-    border-radius: 100%
-    
-}
 
 .rightNav .HostText  {
 	display: flex;
@@ -142,6 +125,24 @@ button{
 .rightNav .HostText:hover {
  background-color: rgba(72, 72, 75, 0.432);
  border-radius: 50px;
+}
+
+.rightNav .sphere {
+	color: white;
+	align-items: center;
+	
+	height: 42px;
+	display: flex;
+	padding-left: 14px;
+	justify-content: center;
+	align-items: center;
+    cursor: pointer;
+}
+
+.rightNav .sphere:hover {
+    background-color: rgba(72, 72, 75, 0.432);
+    border-radius: 100%
+    
 }
 .bgRightNav{
     width: 76.5px;
