@@ -4,60 +4,67 @@
     font-family: Circular;
     src: url(../fonts/Circular-medium.ttf);
     font-weight: 500;
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: Circular;
     src: url(../fonts/Circular-bold.ttf);
     font-weight: 600;
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: Circular;
     src: url(../fonts/Circular-light.ttf);
     font-weight: 400;
-  }
+}
 
-  *{
+* {
     box-sizing: border-box;
     margin: 0;
-   padding: 0;
+    padding: 0;
 
 
 }
-html{
-    font-family: Circular,sans-serif;
+
+html {
+    font-family: Circular, sans-serif;
 }
 
-.container{
+.container {
     max-width: 1349px;
     margin: 0 80px;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
     cursor: pointer;
-  
 
-   }
-ul{
+}
+
+ul {
     list-style-type: none;
 }
-button{
+
+button {
     cursor: pointer;
     border: none;
 }
 
 
 /* ===========Section1============ */
-.section1{
-    height:686.48px;
+.section1 {
+    height: 686.48px;
     background-color: black;
 }
+
 /* ============Navbar============= */
-.navbar{
+.navbar {
     display: flex;
     height: 80px;
 }
-.main-header{
+
+.main-header {
     max-width: 1349px;
     margin: 0 80px;
     height: 80px;
@@ -66,36 +73,41 @@ button{
     align-items: center;
 }
 
-.navbar .main-header ul{
+.navbar .main-header ul {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 
 /* ============Center Links========== */
 .center-links a:hover {
     color: rgb(200, 200, 204);
-    border-bottom: 1px white solid;
+    /* border-bottom: 1px white solid; */
+    text-decoration: none;
 }
+
 .center-links {
-	display: flex;
-	margin-left: 279.4px;
+    display: flex;
+    margin-left: 279.4px;
     margin-top: -2px;
     justify-content: space-evenly;
-	align-content: center;
-	font-size: 16px;
-	font-weight: 200;
+    align-content: center;
+    font-size: 16px;
+    font-weight: 200;
 }
+
 .center-links a {
-	height: 40px;
+    height: 40px;
     width: 100%;
-	padding: 10px 16px;
+    padding: 10px 16px;
 }
-.places a{
-   position: relative;
+
+.places a {
+    position: relative;
 }
-.places a::after{
+
+.places a::after {
     content: "";
     position: absolute;
     z-index: 0;
@@ -106,133 +118,143 @@ button{
     background: rgb(255, 255, 255);
     height: 2px;
     z-index: 1;
- }
+}
+
 /* ============End Center Links============== */
 
 .rightNav {
-	height: 80px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 134px;
-    font-family: Circular,sans-serif;
+    font-family: Circular, sans-serif;
     font-weight: 500;
 }
 
-.rightNav .HostText  {
-	display: flex;
-	align-content: center;
-	align-items: center;
-	justify-content: center;
-	color: white;
-	width: 120px;
-	height: 42px;
-	border-radius: 50px;
+.rightNav .HostText {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 120px;
+    height: 42px;
+    border-radius: 50px;
 
 }
- .rightNav .HostText a {
-	text-decoration: none;
-	font-size: 14px;
-	padding-left: 4px;
+
+.rightNav .HostText a {
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 4px;
 }
+
 .rightNav .HostText:hover {
- background-color: rgba(72, 72, 75, 0.432);
- border-radius: 50px;
+    background-color: rgba(72, 72, 75, 0.432);
+    border-radius: 50px;
 }
 
 .rightNav .sphere {
-	color: white;
-	align-items: center;
-	
-	height: 42px;
-	display: flex;
-	padding-left: 14px;
-	justify-content: center;
-	align-items: center;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
+    height: 42px;
+    width: 42px;
+    margin-right: -12px;
+
 }
 
 .rightNav .sphere:hover {
     background-color: rgba(72, 72, 75, 0.432);
-    border-radius: 100%
-    
+    border-radius: 100%;
+
+    z-index: 1;
 }
-.bgRightNav{
+
+.bgRightNav {
     width: 77px;
     height: 42px;
     background-color: white;
     border-radius: 20px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     margin-left: 20px;
     align-items: center;
     cursor: pointer;
+    position: relative;
+    
 }
+
 
 /* ==========End Navbar=========== */
 
 
 /* ======SearchHeader============== */
 
-.section-header .container{
+.section-header .container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.section-header .container .search-header{
-    
+
+.section-header .container .search-header {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width:  849.02px; 
+    max-width: 849.02px;
     height: 66px;
     background-color: white;
     border-radius: 40px;
 }
 
 .search-header .elements .content {
-    
-  max-width:  849.02px; 
+
+    max-width: 849.02px;
 }
-.elements .content p{
-    font-family: Circular,sans-serif;
+
+.elements .content p {
+    font-family: Circular, sans-serif;
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 0.04em;
 }
 
-.divide{
-	border-left: 1px solid #e6e3e3;
-	align-self: center;
-	height: 32px;
-	position: relative;
-	left: 7px;
+.divide {
+    border-left: 1px solid #e6e3e3;
+    align-self: center;
+    height: 32px;
+    position: relative;
+    left: 7px;
 }
 
- .elements .content{
+.elements .content {
     margin-left: 33px;
     margin-top: 15px;
     cursor: pointer;
 }
 
-.circle{
+.circle {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: #FF385C;
     margin-right: 11px;
-    display: flex ;
+    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
 
-.circle:hover{
+.circle:hover {
     background-image: linear-gradient(#FF385C, #ff388b);
 }
 
-.search-header .elements:hover{
+.search-header .elements:hover {
 
     background-color: #EBEBEB;
     border-radius: 40px;
@@ -243,43 +265,47 @@ button{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     width: 100%;
     height: 368px;
     margin-top: 77px;
     background-color: #FF385c;
     border-radius: 8px;
-    }
-    .section-header .container .pink-card .content h1{
-        color: white;
-        font-size: 38px;
-      font-family: Circular,sans-serif;
-    }
-    .section-header .container .pink-card .btn{
-        color:white;
-        background-color: #FF385c;
-        border-radius: 10px;
-        border-color: white;
-        padding: 8px 16px;
-        border: solid;
-        cursor: pointer;
-        border-width: thin;
-        margin-top: 24px;
-    }
-    
+}
+
+.section-header .container .pink-card .content h1 {
+    color: white;
+    font-size: 38px;
+    font-family: Circular, sans-serif;
+}
+
+.section-header .container .pink-card .btn {
+    color: white;
+    background-color: #FF385c;
+    border-radius: 10px;
+    border-color: white;
+    padding: 8px 16px;
+    border: solid;
+    cursor: pointer;
+    border-width: thin;
+    margin-top: 24px;
+}
+
 
 /* ===========Section2============ */
 .section2 {
     height: 595.5px;
- 
+
 }
-.section2 .bg-black{
+
+.section2 .bg-black {
     height: 297.75px;
     background-color: black;
     padding: 0% 80px;
 
 }
-.bg-black .herohouse{
+
+.bg-black .herohouse {
     /* background-image: url("/images/hero-House.jpg"); */
     background-size: contain;
     width: 1189px;
@@ -287,7 +313,8 @@ button{
     background-repeat: no-repeat;
     border-radius: 15px;
 }
-.herohouse .container{
+
+.herohouse .container {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -295,16 +322,17 @@ button{
     padding-top: 408px;
 }
 
-.span{
- background: linear-gradient(90deg, rgb(111, 1, 156) 0%, rgb(198, 1, 126) 135.12%);
- -webkit-background-clip: text !important; -webkit-text-fill-color: transparent !important;
+.span {
+    background: linear-gradient(90deg, rgb(111, 1, 156) 0%, rgb(198, 1, 126) 135.12%);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
 }
 
- .herohouse .container .btn button{
+.herohouse .container .btn button {
     background-color: white;
     border-color: white;
     border-radius: 30px;
-    padding: 14px 32px ;
+    padding: 14px 32px;
     width: 161px;
     height: 56px;
     margin-top: 25px;
@@ -316,39 +344,39 @@ button{
     box-shadow: none;
 }
 
-.text-ex{
+.text-ex {
     color: white;
-     font-family: Circular, sans-serif;
-     font-size: 43px; 
-     font-weight: 550;
-    width: 260px; 
+    font-family: Circular, sans-serif;
+    font-size: 43px;
+    font-weight: 550;
+    width: 260px;
 }
 
 /* ===========Section3============ */
-.section3{
+.section3 {
     height: 553.31px;
 }
 
-.body-elements .container{
+.body-elements .container {
     display: flex;
     margin-top: 0;
 }
 
-.cards-body .container{
+.cards-body .container {
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
 }
 
-.cards-body .container img{
+.cards-body .container img {
     width: 279.25px;
     height: 186.16px;
-    border-top-left-radius:   15px;
+    border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     vertical-align: bottom;
     cursor: pointer;
 }
 
-.body-elements .container .top-text-body h1{
+.body-elements .container .top-text-body h1 {
     margin-top: 96px;
     font-size: 33px;
     color: black;
@@ -358,8 +386,8 @@ button{
     font-weight: 550;
 }
 
-.section3 .under-cards-body .text h2{
-    margin-top:20px ;
+.section3 .under-cards-body .text h2 {
+    margin-top: 20px;
     margin-left: 16px;
     font-family: Circular, sans-serif;
     font-weight: 500;
@@ -368,59 +396,8 @@ button{
     font-size: 27px;
 
 }
-.section3 .under-cards-body .text2 p{
-    margin-top: 10px;
-    margin-left: 16px;
-    font-size: 15px;
-    font-family: Circular, sans-serif;
-    font-weight: 400;
-    color: white;
-}
-.section3 .under-cards-body .text1 h2{
-    margin-top:20px ;
-    margin-left: 16px;
-    height: 100%;
-    color: white;
-    font-size: 27px;
-    font-family: Circular, sans-serif;
-    font-weight: 400;
-}
-.section3 .under-cards-body .text2 p{
-    margin-top: 10px;
-    margin-left: 16px;
-    font-size: 15px;
-    font-family: Circular, sans-serif;
-    font-weight: 400;
-    color: white;
-}
-.section3 .under-cards-body .text3 h2{
-    margin-top:20px ;
-    margin-left: 16px;
-    height: 100%;
-    color: white;
-    font-size: 27px;
-    font-family: Circular, sans-serif;
-    font-weight: 400;
- 
-}
-.section3 .under-cards-body .text2 p{
-    margin-top: 10px;
-    margin-left: 16px;
-    font-size: 15px;
-    font-family: Circular, sans-serif;
-    font-weight: 400;
-    color: white;
-}
-.section3 .under-cards-body .text4 h2{
-    margin-top:20px ;
-    margin-left: 16px;
-    height: 100%;
-    color: white;
-    font-size: 27px;
-    font-family: Circular, sans-serif;
-    font-weight: 400;
-}
-.section3 .under-cards-body .text2 p{
+
+.section3 .under-cards-body .text2 p {
     margin-top: 10px;
     margin-left: 16px;
     font-size: 15px;
@@ -429,50 +406,105 @@ button{
     color: white;
 }
 
-.under-cards-body .container{
+.section3 .under-cards-body .text1 h2 {
+    margin-top: 20px;
+    margin-left: 16px;
+    height: 100%;
+    color: white;
+    font-size: 27px;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
+}
+
+.section3 .under-cards-body .text2 p {
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 15px;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.section3 .under-cards-body .text3 h2 {
+    margin-top: 20px;
+    margin-left: 16px;
+    height: 100%;
+    color: white;
+    font-size: 27px;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
+
+}
+
+.section3 .under-cards-body .text2 p {
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 15px;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.section3 .under-cards-body .text4 h2 {
+    margin-top: 20px;
+    margin-left: 16px;
+    height: 100%;
+    color: white;
+    font-size: 27px;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
+}
+
+.section3 .under-cards-body .text2 p {
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 15px;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.under-cards-body .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    
+
 }
 
-.under-cards-body .container .color-cards{
+.under-cards-body .container .color-cards {
     width: 279.25px;
     height: 186.16px;
-    border-bottom-left-radius:  15px;
+    border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     cursor: pointer;
 }
-.under-cards-body .container .color-cards:nth-of-type(1)
-{
+
+.under-cards-body .container .color-cards:nth-of-type(1) {
     background-color: #cc2d4a;
 }
 
-.under-cards-body .container .color-cards:nth-of-type(2)
-{
+.under-cards-body .container .color-cards:nth-of-type(2) {
     background-color: #de3151;
 }
 
-.under-cards-body .container .color-cards:nth-of-type(3)
-{
+.under-cards-body .container .color-cards:nth-of-type(3) {
     background-color: #d93b30;
 }
 
-.under-cards-body .container .color-cards:nth-of-type(4)
-{
+.under-cards-body .container .color-cards:nth-of-type(4) {
     background-color: #bc1a6e;
 }
 
 
 
 /* ===========Section4============ */
-.section4{
+.section4 {
     height: 859.5px;
     vertical-align: bottom;
 }
 
-.body-elements .container .bottom-text-body h1{
+.body-elements .container .bottom-text-body h1 {
     margin-top: 96px;
     font-size: 33px;
     color: white;
@@ -482,15 +514,15 @@ button{
     font-weight: 550;
 }
 
-.cards-experience .container{
+.cards-experience .container {
     display: flex;
     justify-content: space-between;
     margin-top: 0;
     margin-bottom: 0;
-  
+
 }
 
-.cards-experience .container .cards{
+.cards-experience .container .cards {
     width: 583px;
     height: 583px;
     border-radius: 10px;
@@ -500,17 +532,26 @@ button{
 
 }
 
-.cards .container{
+.cards .container button:hover {
+    background-color: #EBEBEB;
+}
+
+.cards .container button {
+    background-color: white;
+}
+
+.cards .container {
     display: flex;
     flex-direction: column;
 }
 
 
 /* ===========Section5============ */
-.section5{
+.section5 {
     height: 449.66px;
 }
-.section5 .btn button{
+
+.section5 .btn button {
     margin-top: 24px;
     background-color: #222222;
     color: white;
@@ -519,72 +560,75 @@ button{
     width: 133px;
 }
 
-.body-elements .container .gift-text-body h2
-{
+.body-elements .container .gift-text-body h2 {
     font-size: 39px;
-  width: 229px;
+    width: 229px;
     font-family: Circular, sans-serif;
     font-weight: 500;
 }
 
-.gift-card  .container  img{
-    
-     width: 120%;
-    height: 449.66px ;
-     object-fit: cover;
-    object-position: left;  
+.gift-card .container img {
+
+    width: 120%;
+    height: 449.66px;
+    object-fit: cover;
+    object-position: left;
     margin-left: 75px;
 }
 
-
 /* ===========Section6============ */
-.section6 { 
+.section6 {
     height: 674.5px;
     vertical-align: bottom;
-  
-  }
-  .section6 .questions{
-      background-image: url("/images/questions.jpg");
-      background-size: contain;
-      height: 674.5px;
-      background-repeat: no-repeat;
-  }
-
-  .section6 .questions h1{
-      padding-top: 80px;
-      padding-left: 80px;
-      line-height: 1;
-  }
-  .section6 .questions .btn button{
-      margin-top: 236px;
-      margin-left: 80px;
-      background-color: white;
-      font-family: Circular,sans-serif;
-      font-weight: 500;
-      font-size: 16px;
-      cursor: pointer;
-      border-radius: 10px;
-      width: 170px;
-      height: 48px;
-  }
-
-.section6 { 
-  height: 674.5px;
-  vertical-align: bottom;
 
 }
-.section6 .questions{
+
+.section6 .questions {
     background-image: url("/images/questions.jpg");
     background-size: contain;
     height: 674.5px;
     background-repeat: no-repeat;
 }
-.section6 .questions h1{
+
+.section6 .questions h1 {
     padding-top: 80px;
     padding-left: 80px;
     line-height: 1;
 }
-.section6 .questions .btn button{
+
+.section6 .questions .btn button {
+    margin-top: 236px;
+    margin-left: 80px;
+    background-color: white;
+    font-family: Circular, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 170px;
+    height: 48px;
+}
+
+.section6 {
+    height: 674.5px;
+    vertical-align: bottom;
+
+}
+
+.section6 .questions {
+    background-image: url("/images/questions.jpg");
+    background-size: contain;
+    height: 674.5px;
+    background-repeat: no-repeat;
+}
+
+.section6 .questions h1 {
+    padding-top: 80px;
+    padding-left: 80px;
+    line-height: 1;
+}
+
+.section6 .questions .btn button {
     margin-top: 236px;
     margin-left: 80px;
     background-color: white;
@@ -595,16 +639,21 @@ button{
     height: 48px;
 }
 
-/* ===========Section7============ */
-.section7{
-  height: 279px;
-  margin-top: 48px;
-  margin-bottom: 64px;
+.section6 .questions button:hover {
+    background: #EBEBEB;
 }
-.text-title h1{
+
+/* ===========Section7============ */
+.section7 {
+    height: 279px;
+    margin-top: 48px;
+    margin-bottom: 64px;
+}
+
+.text-title h1 {
     font-size: 23px;
     font-weight: 500;
-    font-family: Circular,sans-serif;
+    font-family: Circular, sans-serif;
 }
 
 .tabs {
@@ -613,58 +662,61 @@ button{
     align-items: center;
     position: relative;
     margin-top: 14px;
-  
-  }
-  .tabs::before,
-  .tabs::after {
+
+}
+
+.tabs::before,
+.tabs::after {
     content: "";
     display: table;
-  }
-  .tabs::after {
+}
+
+.tabs::after {
     clear: both;
 
-  }
-  .tab {
-   flex-basis: 157px;
-   justify-self: center;
-   float: left;
+}
 
-  }
+.tab {
+    flex-basis: 157px;
+    justify-self: center;
+    float: left;
 
-  .column{
-      width: 22%;
-  }
+}
+
+.column {
+    width: 22%;
+}
 
 
-  .tab:nth-of-type(5){
-      flex-basis: 199px;
-  }
+.tab:nth-of-type(5) {
+    flex-basis: 199px;
+}
 
-  .tab-switch {
- display: none;
-  }
+.tab-switch {
+    display: none;
+}
 
-  .tab-label {
+.tab-label {
     position: relative;
     align-items: center;
     justify-content: flex-start;
     height: 38px;
     color: #717171;
     cursor: pointer;
-    font-family: Circular,sans-serif;
+    font-family: Circular, sans-serif;
     font-weight: 500;
     font-size: 14px;
     padding: 10px;
     border-radius: 6px;
 
-  }
+}
 
-  .tab-label:hover {
-  background-color: #F7F7F7;
- 
-  }
+.tab-label:hover {
+    background-color: #F7F7F7;
 
-  .tab-content {
+}
+
+.tab-content {
     height: 100%;
     line-height: 1;
     position: absolute;
@@ -676,31 +728,34 @@ button{
     color: #2c3e50;
     opacity: 0;
     transition: all 0.35s;
-   
-  }
-  .tab-content .container{
-    margin-top: 39px;  
-    display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-left: 0;
-     
-  }
-  .his1{
-      width: 285px;
-      height: 62px;
-      cursor: pointer;
-  }
 
-  .tab-switch:checked + .tab-label {
+}
+
+.tab-content .container {
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 0;
+
+}
+
+.his1 {
+    width: 285px;
+    height: 62px;
+    cursor: pointer;
+}
+
+.tab-switch:checked+.tab-label {
     background: #fff;
     z-index: 1;
-  }
+}
 
-  .tab-label{
-      position: relative;
-  }
-  .tab-switch:checked + .tab-label::after {
+.tab-label {
+    position: relative;
+}
+
+.tab-switch:checked+.tab-label::after {
     content: "";
     position: absolute;
     z-index: 0;
@@ -710,125 +765,145 @@ button{
     background: rgb(34, 34, 34);
     height: 2px;
     z-index: 1;
-  }
-  .tab-switch:checked + label + .tab-content {
+}
+
+.tab-switch:checked+label+.tab-content {
     z-index: 2;
     opacity: 1;
     transition: all 0.35s;
-  }
-  
+}
 
-  /* ===========Section8============ */
-.section8{
+
+/* ===========Section8============ */
+.section8 {
 
     height: 399px;
     background-color: #F7F7F7;
 }
-.footer-col{
+
+.footer-col {
     width: 100%;
 }
-.section8-title{
-    font-family: Circular,sans-serif;
-    font-weight:600 ;
+
+.section8-title {
+    font-family: Circular, sans-serif;
+    font-weight: 600;
     font-size: 14px;
 
 }
-.s1{
-    margin-top: 0px;
-    font-size: 14px;
-}
-.c1{
-    margin-top: 0px;
-    font-size: 14px;
 
-}
-.ho1{
+.s1 {
     margin-top: 0px;
     font-size: 14px;
-
 }
-.a1{
+
+.c1 {
     margin-top: 0px;
     font-size: 14px;
 
 }
 
-.section8 .container{
+.ho1 {
+    margin-top: 0px;
+    font-size: 14px;
+
+}
+
+.a1 {
+    margin-top: 0px;
+    font-size: 14px;
+
+}
+
+.section8 .container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-   
+
 }
 
-.section8 .container ul{
+.section8 .container ul {
 
-   margin-top: 48px;
+    margin-top: 48px;
 }
 
-.section8 .container ul li a{
+.section8 .container ul li a {
     height: 18px;
-    line-height:2.6;
+    line-height: 2.6;
     color: black;
     font-size: 14px;
-    font-family: circular;   
+    font-family: circular;
 }
+
 /* ======================End */
-.bgsection8{
+.bgsection8 {
     background-color: #F7F7F7;
 
 }
-.endsection{
+
+.endsection {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 69px;
     margin: 0 80px;
 }
-.leftend ul li a{
+
+.leftend ul li a {
     color: #222222;
 }
-.leftend ul{
+
+.leftend ul {
     display: flex;
     justify-content: flex-start;
 }
-.leftend ul li{
-   font-size: 14px;
-   font-family: Circular,sans-serif;
-   font-weight: 400;
+
+.leftend ul li {
+    font-size: 14px;
+    font-family: Circular, sans-serif;
+    font-weight: 400;
 }
-.leftend span{
-    width:19px;
+
+.leftend span {
+    width: 19px;
     height: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.rightend ul{
+
+.rightend ul {
     display: flex;
     height: 18px;
 }
-.rightend ul li a{
+
+.rightend ul li a {
     color: #222222;
     text-decoration: underline;
 }
-#re1{
+
+#re1 {
     margin-right: 8px;
 }
-#re2{
-    margin-right:24px ;
-    font-family: Circular,sans-serif;
+
+#re2 {
+    margin-right: 24px;
+    font-family: Circular, sans-serif;
     font-weight: 500;
     font-size: 14px;
 }
-#re3{
+
+#re3 {
     margin-right: 61px;
-    font-family: Circular,sans-serif;
+    font-family: Circular, sans-serif;
     font-weight: 500;
     font-size: 14px;
 }
-#re4{
-    margin-right: 43px ;
+
+#re4 {
+    margin-right: 43px;
 }
-#re5{
-    margin-right: 41px ;
+
+#re5 {
+    margin-right: 41px;
 }
