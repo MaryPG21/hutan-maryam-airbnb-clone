@@ -499,6 +499,12 @@ button{
     background-size: cover;
 
 }
+.cards .container button:hover {
+background-color: #EBEBEB;
+}
+.cards .container button{
+    background-color: white;
+}
 
 .cards .container{
     display: flex;
@@ -535,7 +541,6 @@ button{
     object-position: left;  
     margin-left: 75px;
 }
-
 
 /* ===========Section6============ */
 .section6 { 
@@ -593,6 +598,9 @@ button{
     border-radius: 10px;
     width: 170px;
     height: 48px;
+}
+.section6 .questions button:hover{
+    background: #EBEBEB;
 }
 
 /* ===========Section7============ */
